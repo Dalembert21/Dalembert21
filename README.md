@@ -1,16 +1,89 @@
-## Hi there 👋
+<!-- Encabezado principal -->
+<h1 align="center">👋 ¡Hola, soy <span style="color:#4CAF50;">Dalembert Bravo</span>!</h1>
+<h3 align="center">💻 Desarrollador Full-Stack </h3>
 
-<!--
-**Dalembert21/Dalembert21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Dalembert21&label=Visitas%20al%20perfil&color=0e75b6&style=flat" alt="Dalembert21" />
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Sobre mí  
+Apasionado desarrollador de software Full-Stack, enfocado en construir productos digitales eficientes y atractivos.
+Disfruto trabajar con tecnologías como React, NestJS, PHP y Firebase, combinando lógica, diseño y rendimiento para crear experiencias de usuario excepcionales.
+Siempre en busca de nuevos desafíos que me permitan crecer y aprender más. ⚡
+
+---
+
+# 🧰 Tecnologías y herramientas que uso
+
+#### 💻 Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,angular,figma" />
+  <img src="https://img.shields.io/badge/Penpot-000000?style=for-the-badge&logo=penpot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white" />
+</p>
+
+#### ⚙️ Backend
+<p>
+  <img src="https://skillicons.dev/icons?i=php,nestjs,nodejs,firebase" />
+</p>
+
+#### 🗃️ Bases de datos  
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" />
+</p>
+
+#### 🧠 Lenguajes
+<p>
+  <img src="https://skillicons.dev/icons?i=java,typescript,php,javascript" />
+</p>
+
+#### 🛠️ Herramientas y colaboración
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,androidstudio,postman" />
+</p>
+
+---
+
+---
+
+### 💬 Habilidades blandas
+- 🤝 Trabajo en equipo  
+- 🚀 Adaptabilidad y aprendizaje rápido  
+- 🧩 Resolución de problemas  
+- 💬 Comunicación efectiva  
+
+---
+
+### 🏆 Certificaciones y eventos
+- 🧠 CCNA: *Introduction to Networks* – Cisco Networking Academy  
+- 🔐 *Introduction to Cybersecurity* – Cisco Networking Academy  
+- 🧑‍💻 *Ethical Wi-Fi Hacking (Básico)*  
+- 🎓 *VI Congreso de Ciencia de la Computación, Electrónica e Ingeniería Industrial – CSI 2024*
+
+---
+
+### 📫 Contáctame  
+📍 **Ecuador**  
+📧 **dalembertbravo2@gmail.com**  
+🔗 [LinkedIn](https://www.linkedin.com/in/edalembertbravo/)  
+💻 [GitHub](https://github.com/Dalembert21)
+
+---
+
+### ⚡ Fun fact  
+> Me encanta combinar la creatividad del diseño con la lógica del código. Cada proyecto es una nueva oportunidad para aprender algo increíble.
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Dalembert21&show_icons=true&theme=tokyonight" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dalembert21&layout=compact&theme=tokyonight" height="165" />
+</p>
+
+---
+
+
