@@ -1,154 +1,197 @@
-<!-- Encabezido principal -->
-<h1 align="center">👋 ¡Hola, soy <span style="color:#4CAF50;">Dalembert Bravo</span>!</h1>
-<h3 align="center">💻 Desarrollador Full-Stack | 🧠 Arquitecto de Soluciones con Clean DDD</h3>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* EFECTO LLAMATIVO: CARRUSEL 3D + NEÓN PARPADEANTE */
+  body {
+    background: #0a0f1e;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0;
+  }
+  .card {
+    background: #11161f;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 0 30px rgba(0,255,255,0.2);
+    overflow: hidden;
+  }
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Dalembert21&label=Visitas%20al%20perfil&color=0e75b6&style=flat" alt="Dalembert21" />
-</p>
+  /* ========= CARRUSEL 3D LLAMATIVO ========= */
+  .tech-showcase {
+    margin: 40px 0;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  .carousel-3d {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    transform-style: preserve-3d;
+    animation: spin3D 12s infinite linear;
+  }
+  .carousel-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(20, 30, 55, 0.9);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    box-shadow: 0 0 20px cyan;
+    border: 2px solid cyan;
+    backdrop-filter: blur(4px);
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+  }
+  /* Posiciones 3D */
+  .carousel-item:nth-child(1) { transform: rotateY(0deg) translateZ(150px); background: #ff5722; }
+  .carousel-item:nth-child(2) { transform: rotateY(60deg) translateZ(150px); background: #2196f3; }
+  .carousel-item:nth-child(3) { transform: rotateY(120deg) translateZ(150px); background: #4caf50; }
+  .carousel-item:nth-child(4) { transform: rotateY(180deg) translateZ(150px); background: #ffeb3b; color: #000; }
+  .carousel-item:nth-child(5) { transform: rotateY(240deg) translateZ(150px); background: #9c27b0; }
+  .carousel-item:nth-child(6) { transform: rotateY(300deg) translateZ(150px); background: #e91e63; }
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/edalembertbravo/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:dalembertbravo2@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/Dalembert21" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-</p>
+  @keyframes spin3D {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+  }
 
----
+  /* ========= NEÓN PARPADEANTE ========= */
+  .neon-flash {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+    animation: neonPulse 1.2s ease-in-out infinite, colorShift 3s infinite;
+    letter-spacing: 4px;
+  }
+  @keyframes neonPulse {
+    0%, 100% { text-shadow: 0 0 5px #fff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff; opacity: 1; }
+    50% { text-shadow: 0 0 2px #fff, 0 0 5px #f0f, 0 0 15px #f0f, 0 0 25px #f0f; opacity: 0.9; }
+  }
+  @keyframes colorShift {
+    0% { color: #ff0066; }
+    33% { color: #00ffcc; }
+    66% { color: #ffcc00; }
+    100% { color: #ff0066; }
+  }
 
-### 🚀 Sobre mí  
-Desarrollador de software Full-Stack especializado en el diseño y construcción de aplicaciones escalables mediante el uso de arquitecturas limpias y patrones como DDD (Domain-Driven Design) y CQRS. Experiencia en la implementación de sistemas basados en eventos con Apache Kafka, optimización de lógica de negocio en el backend y desarrollo de interfaces eficientes en el frontend. Enfoque centrado en la estructura, la mantenibilidad del código y el rendimiento técnico.
+  hr {
+    border-color: #2a3a5a;
+  }
+</style>
+</head>
+<body>
+<div class="card">
 
----
+  <!-- SECCIÓN LLAMATIVA: CARRUSEL 3D + NEÓN -->
+  <div class="tech-showcase">
+    <div class="carousel-3d">
+      <div class="carousel-item">⚛️</div>
+      <div class="carousel-item">🐘</div>
+      <div class="carousel-item">🎨</div>
+      <div class="carousel-item">🔥</div>
+      <div class="carousel-item">📱</div>
+      <div class="carousel-item">💾</div>
+    </div>
+  </div>
 
-### 🎯 Mi expertise se centra en:
+  <div class="neon-flash">
+    🚀 FULL-STACK DEVELOPER ⚡
+  </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Clean%20Architecture-ff69b4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-DDD-9cf?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-CQRS-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Event%20Sourcing-lightgrey?style=for-the-badge" />
-</p>
+  <!-- Contenido original -->
+  <h1 align="center">👋 ¡Hola, soy <span style="color:#4CAF50;">Dalembert Bravo</span>!</h1>
+  <h3 align="center">💻 Desarrollador Full-Stack </h3>
 
----
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=Dalembert21&label=Visitas%20al%20perfil&color=0e75b6&style=flat" alt="Dalembert21" />
+  </p>
 
-# 🧰 Tecnologías y herramientas que uso
+  <hr>
 
-#### 💻 Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,angular,figma" />
-  <img src="https://img.shields.io/badge/Penpot-000000?style=for-the-badge&logo=penpot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white" />
-</p>
+  <h3>🚀 Sobre mí</h3>
+  <p>Desarrollador de software Full-Stack especializado en el diseño y construcción de aplicaciones escalables mediante el uso de arquitecturas limpias y patrones como DDD (Domain-Driven Design) y CQRS. Experiencia en la implementación de sistemas basados en eventos con Apache Kafka, optimización de lógica de negocio en el backend y desarrollo de interfaces eficientes en el frontend. Enfoque centrado en la estructura, la mantenibilidad del código y el rendimiento técnico.</p>
 
-#### ⚙️ Backend
-<p>
-  <img src="https://skillicons.dev/icons?i=php,nestjs,nodejs,firebase" />
-</p>
+  <hr>
 
-#### 🗃️ Bases de datos  
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgresql" />
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" />
-</p>
+  <h3>🧰 Tecnologías y herramientas que uso</h3>
 
-#### 🧠 Lenguajes
-<p>
-  <img src="https://skillicons.dev/icons?i=java,typescript,php,javascript" />
-</p>
+  <h4>💻 Frontend</h4>
+  <p>
+    <img src="https://skillicons.dev/icons?i=html,css,js,react,angular,figma" />
+    <img src="https://img.shields.io/badge/Penpot-000000?style=for-the-badge&logo=penpot&logoColor=white" />
+    <img src="https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white" />
+  </p>
 
-#### 🛠️ Herramientas, DevOps y colaboración
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes,aws,vscode,postman" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white" />
-  <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" />
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" />
-</p>
+  <h4>⚙️ Backend</h4>
+  <p><img src="https://skillicons.dev/icons?i=php,nestjs,nodejs,firebase" /></p>
 
----
+  <h4>🗃️ Bases de datos</h4>
+  <p>
+    <img src="https://skillicons.dev/icons?i=mysql,postgresql" />
+    <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+    <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" />
+  </p>
 
-### 💬 Habilidades blandas
-- 🤝 Trabajo en equipo  
-- 🚀 Adaptabilidad y aprendizaje rápido  
-- 🧩 Resolución de problemas  
-- 💬 Comunicación efectiva  
-- 🎯 Pensamiento crítico y analítico  
-- 📈 Liderazgo técnico
+  <h4>🧠 Lenguajes</h4>
+  <p><img src="https://skillicons.dev/icons?i=java,typescript,php,javascript" /></p>
 
----
+  <h4>🛠️ Herramientas y colaboración</h4>
+  <p><img src="https://skillicons.dev/icons?i=git,github,vscode,androidstudio,postman" /></p>
 
-### 🏆 Certificaciones y eventos
-- 🧠 CCNA: *Introduction to Networks* – Cisco Networking Academy  
-- 🔐 *Introduction to Cybersecurity* – Cisco Networking Academy  
-- 🧑‍💻 *Ethical Wi-Fi Hacking (Básico)*  
-- 🎓 *VI Congreso de Ciencia de la Computación, Electrónica e Ingeniería Industrial – CSI 2024*
+  <hr>
 
----
+  <h3>💬 Habilidades blandas</h3>
+  <ul>
+    <li>🤝 Trabajo en equipo</li>
+    <li>🚀 Adaptabilidad y aprendizaje rápido</li>
+    <li>🧩 Resolución de problemas</li>
+    <li>💬 Comunicación efectiva</li>
+  </ul>
 
-### 🚀 Proyectos destacados
+  <hr>
 
-| Proyecto | Descripción | Tecnologías |
-| :--- | :--- | :--- |
-| **[Sistema de Gestión de Pedidos](https://github.com/Dalembert21/proyecto1)** | Backend escalable usando CQRS y Kafka para procesar eventos en tiempo real. Incluye microservicios y API Gateway. | `NestJS` `Kafka` `PostgreSQL` `DDD` `Docker` |
-| **[App Móvil de Fitness](https://github.com/Dalembert21/proyecto2)** | Aplicación móvil híbrida con seguimiento de entrenamientos y sincronización en la nube. | `Ionic` `Angular` `Node.js` `JWT` `MongoDB` |
-| **[Dashboard de Análisis de Ventas](https://github.com/Dalembert21/proyecto3)** | Panel interactivo que consume datos de múltiples fuentes y muestra métricas en tiempo real. | `React` `Chart.js` `Express` `MySQL` `Socket.io` |
+  <h3>🏆 Certificaciones y eventos</h3>
+  <ul>
+    <li>🧠 CCNA: <em>Introduction to Networks</em> – Cisco Networking Academy</li>
+    <li>🔐 <em>Introduction to Cybersecurity</em> – Cisco Networking Academy</li>
+    <li>🧑‍💻 <em>Ethical Wi-Fi Hacking (Básico)</em></li>
+    <li>🎓 <em>VI Congreso de Ciencia de la Computación, Electrónica e Ingeniería Industrial – CSI 2024</em></li>
+  </ul>
 
-> 👉 **Ver todos mis proyectos**: [Repositorios en GitHub](https://github.com/Dalembert21?tab=repositories)
+  <hr>
 
----
+  <h3>📫 Contáctame</h3>
+  <p>📍 Ecuador<br>
+  📧 dalembertbravo2@gmail.com<br>
+  🔗 <a href="https://www.linkedin.com/in/edalembertbravo/">LinkedIn</a><br>
+  💻 <a href="https://github.com/Dalembert21">GitHub</a></p>
 
-### 📫 Contáctame  
-📍 **Ecuador**  
-📧 **dalembertbravo2@gmail.com**  
-🔗 [LinkedIn](https://www.linkedin.com/in/edalembertbravo/)  
-💻 [GitHub](https://github.com/Dalembert21)
+  <hr>
 
----
+  <h3>⚡ Fun fact</h3>
+  <blockquote>Me encanta combinar la creatividad del diseño con la lógica del código. Cada proyecto es una nueva oportunidad para aprender algo increíble.</blockquote>
 
-### ⚡ Fun fact  
-> Me encanta combinar la creatividad del diseño con la lógica del código. Cada proyecto es una nueva oportunidad para aprender algo increíble. 🚀
+  <hr>
 
----
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=Dalembert21&show_icons=true&theme=tokyonight" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dalembert21&layout=compact&theme=tokyonight" height="165" />
+  </p>
 
-<h4 align="center">✨ Mi compromiso: Escribir código que hoy sea solución y mañana sea fácil de entender. ✨</h4>
-
----
-
-<p align="center">
-  <em>🎧 Programando al ritmo de Synthwave / Lo-fi</em>
-</p>
-
----
-
-### 📊 Estadísticas de GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dalembert21&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dalembert21&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dalembert21&theme=tokyonight&hide_border=true" />
-</p>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Dalembert21&theme=tokyo-night&area=true&hide_border=true" width="100%" />
-
----
-
-### 🎯 Mis objetivos para 2025
-- [ ] Contribuir a proyectos open-source
-- [ ] Obtener certificación AWS Solutions Architect
-- [ ] Aprender y dominar Rust
-- [ ] Publicar artículos técnicos en Medium o Dev.to
-
----
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Cita aleatoria" />
-</p>
-
----
-
-<p align="center">
-  <b>⭐ ¡Gracias por visitar mi perfil! ¿Listo para colaborar en algo increíble? ⭐</b>
-</p>
+</div>
+</body>
+</html>
