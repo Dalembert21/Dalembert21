@@ -9,9 +9,7 @@
 ---
 
 ### 🚀 Sobre mí  
-Apasionado desarrollador de software Full-Stack, enfocado en construir productos digitales eficientes y atractivos.
-Disfruto trabajar con tecnologías como React, NestJS, PHP y Firebase, combinando lógica, diseño y rendimiento para crear experiencias de usuario excepcionales.
-Siempre en busca de nuevos desafíos que me permitan crecer y aprender más. ⚡
+Desarrollador de software Full-Stack especializado en el diseño y construcción de aplicaciones escalables mediante el uso de arquitecturas limpias y patrones como DDD (Domain-Driven Design) y CQRS. Experiencia en la implementación de sistemas basados en eventos con Apache Kafka, optimización de lógica de negocio en el backend y desarrollo de interfaces eficientes en el frontend. Enfoque centrado en la estructura, la mantenibilidad del código y el rendimiento técnico.
 
 ---
 
